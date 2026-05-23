@@ -4,7 +4,7 @@ function Navbar({ darkMode, setDarkMode, fontSize, setFontSize }) {
   return (
     <header className="navbar">
       {/* LOGO */}
-      <div className="navbar-logo">ProviEmplea - SERCOTEC</div>
+      <div className="navbar-logo"> ProviEmplea - SERCOTEC</div>
 
       {/* MENÚ */}
       <nav>
