@@ -8,7 +8,11 @@ function FAQ() {
   useEffect(() => {
     fetch("http://localhost:3001/faq")
       .then((res) => res.json())
-      .then((data) => setFaqs(data));
+      .then((data) => setFaqs(data))
+      .catch((error) => {
+        console.log("Error cargando FAQ:", error);
+        setFaqs([]); // fallback seguro
+      });
   }, []);
 
   const toggleFAQ = (index) => {
@@ -20,7 +24,7 @@ function FAQ() {
       <h2>Preguntas Frecuentes</h2>
 
       <div className="faq-container">
-        {faqs.map((item, index) => (
+        {faqs?.map((item, index) => (
           <div key={item.id} className="faq-item">
             {/* PREGUNTA */}
             <div className="faq-question" onClick={() => toggleFAQ(index)}>
