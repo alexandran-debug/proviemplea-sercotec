@@ -208,7 +208,7 @@ Estas pruebas validan:
 
 ## Evidencias del proyecto
 
-# React funcionando
+## React funcionando
 
 ## Inicio
 
@@ -236,13 +236,13 @@ Estas pruebas validan:
 
 ---
 
-# JSON Server funcionando
+## JSON Server funcionando
 
 ![JSON Server](./screenshots/json-server/server-running.png)
 
 ---
 
-# Estructura db.json
+## Estructura db.json
 
 ![DB JSON 1](./screenshots/db-json/database-structure1.png)
 
@@ -250,7 +250,7 @@ Estas pruebas validan:
 
 ---
 
-# Evidencias Postman
+## Evidencias Postman
 
 ## GET FAQ
 
@@ -294,6 +294,75 @@ El proyecto incorpora:
 - Uso de React Hooks
 - Consumo de API mediante fetch()
 - Código escalable y mantenible
+
+---
+
+## Optimización y rendimiento
+
+Para mejorar el rendimiento de la aplicación se aplicaron las siguientes estrategias:
+
+- Imágenes optimizadas y comprimidas para carga eficiente.
+- Componentización reutilizable para evitar duplicación de código.
+- Separación modular de archivos y estilos.
+- Consumo dinámico de datos mediante Fetch API.
+- Uso de React Hooks para manejo eficiente del estado.
+- Diseño responsive adaptable a dispositivos móviles y escritorio.
+- Navegación fluida mediante scroll suave entre secciones.
+
+---
+
+## Seguridad implementada
+
+El formulario de contacto incorpora validaciones del lado del cliente para mejorar la seguridad y la integridad de los datos ingresados.
+
+Medidas aplicadas:
+
+- Validación de campos obligatorios.
+- Validación de formato de correo electrónico.
+- Prevención de envío de formularios vacíos.
+- Control básico de errores en formularios.
+- Separación entre frontend y datos simulados mediante JSON Server.
+
+---
+
+## Accesibilidad y usabilidad
+
+La aplicación fue diseñada considerando principios de accesibilidad y experiencia de usuario:
+
+- Modo oscuro global.
+- Ajuste de tamaño de fuente (A+ / A-).
+- Navegación intuitiva.
+- Scroll automático entre secciones.
+- Diseño responsive.
+- Contraste visual adaptable.
+- Interacción clara mediante botones y componentes dinámicos.
+
+---
+
+## Trabajo colaborativo y control de versiones
+
+El desarrollo del proyecto fue gestionado utilizando Git y GitHub.
+
+Se aplicaron las siguientes prácticas:
+
+- Uso de ramas para nuevas funcionalidades.
+- Commits descriptivos.
+- Integración de cambios mediante merge.
+- Repositorio público para documentación y respaldo del proyecto.
+
+---
+
+## Mejora continua y retrospectiva
+
+Durante el desarrollo se realizaron revisiones constantes para detectar mejoras en:
+
+- Organización de componentes.
+- Accesibilidad y experiencia de usuario.
+- Estructura del proyecto.
+- Optimización visual y responsive.
+- Integración entre React y JSON Server.
+
+Estas mejoras permitieron mantener una estructura más escalable, ordenada y fácil de mantener.
 
 ---
 
