@@ -67,6 +67,7 @@ El proyecto simula un sitio institucional del Centro de Negocios SERCOTEC, incor
 
 ## Estructura del proyecto
 
+```bash
 PROVIEMPLEA-SERCOTEC
 ├── node_modules
 ├── public
@@ -91,7 +92,7 @@ PROVIEMPLEA-SERCOTEC
 │ ├── faq.png
 │ ├── footer.png
 │ ├── home.png
-│ ├── mobile.png
+│ ├── mobile.png.jpg
 │ ├── services.png
 │ └── testimonials.png
 └── src
@@ -135,6 +136,7 @@ PROVIEMPLEA-SERCOTEC
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 ---
 
