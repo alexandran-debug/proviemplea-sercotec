@@ -12,7 +12,15 @@ function Hero() {
             empresas mediante asesorías, innovación y acompañamiento.
           </p>
 
-          <button>Contáctanos</button>
+          <button
+            onClick={() =>
+              document
+                .getElementById("contacto")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            Contáctanos
+          </button>
         </div>
       </div>
     </section>

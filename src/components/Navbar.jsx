@@ -13,11 +13,12 @@ function Navbar({ darkMode, setDarkMode, fontSize, setFontSize }) {
             <a href="#inicio">Inicio</a>
           </li>
           <li>
-            <a href="#servicios">Servicios</a>
-          </li>
-          <li>
             <a href="#nosotros">Nosotros</a>
           </li>
+          <li>
+            <a href="#servicios">Servicios</a>
+          </li>
+
           <li>
             <a href="#faq">FAQ</a>
           </li>
